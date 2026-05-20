@@ -1,0 +1,5 @@
+pandas
+emoji
+ftfy
+bertopic
+sentence-transformers
