@@ -1,0 +1,16 @@
+# Pastas de dados
+data/
+outputs/
+
+# Arquivos CSV
+*.csv
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Arquivos de sistema
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
