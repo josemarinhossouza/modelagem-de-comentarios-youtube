@@ -1,10 +1,10 @@
-# 📊 Modelagem de Tópicos em Comentários do YouTube com BERTopic
+# Modelagem de Tópicos em Comentários do YouTube com BERTopic
 
 Este projeto realiza a **análise e modelagem de tópicos** em comentários do YouTube usando a biblioteca [BERTopic](https://maartengr.github.io/BERTopic/), com suporte a texto em português.
 
 ---
 
-## 🗂️ Estrutura do projeto
+## Estrutura do projeto
 
 ```
 📁 projeto/
@@ -20,7 +20,7 @@ Este projeto realiza a **análise e modelagem de tópicos** em comentários do Y
 
 ---
 
-## ⚙️ Fluxo do projeto
+## Fluxo do projeto
 
 ```
 CSV com comentários brutos
@@ -47,7 +47,7 @@ comentarios_modelados.csv
 
 ---
 
-## 🚀 Como usar
+## Como usar
 
 ### 1. Clone o repositório
 
@@ -83,7 +83,7 @@ Coloque seu CSV dentro da pasta `data/` e ajuste o nome do arquivo nas primeiras
 
 ---
 
-## 📦 Dependências principais
+## Dependências principais
 
 | Biblioteca | Uso |
 |------------|-----|
@@ -95,7 +95,7 @@ Coloque seu CSV dentro da pasta `data/` e ajuste o nome do arquivo nas primeiras
 
 ---
 
-## 📌 Observações
+## Observações
 
 - O modelo de embedding usado é o `paraphrase-multilingual-MiniLM-L12-v2`, adequado para textos em português.
 - Comentários classificados como tópico `-1` são **outliers** — o notebook oferece uma etapa opcional para reatribuí-los ao tópico mais próximo.
