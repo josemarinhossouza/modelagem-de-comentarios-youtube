@@ -7,12 +7,12 @@ Este projeto realiza a **análise e modelagem de tópicos** em comentários do Y
 ## Estrutura do projeto
 
 ```
-📁 projeto/
-├── 📓 Correcao_dos_comentarios.ipynb   # Limpeza e correção dos comentários brutos
-├── 📓 Modelagem_com_Bertopic.ipynb     # Modelagem de tópicos com BERTopic
-├── 📁 data/
+ projeto/
+├──  Correcao_dos_comentarios.ipynb   # Limpeza e correção dos comentários brutos
+├──  Modelagem_com_Bertopic.ipynb     # Modelagem de tópicos com BERTopic
+├──  data/
 │   └── Arquivo original (Cópia).csv   # CSV de entrada com os comentários
-├── 📁 outputs/
+├──  outputs/
 │   └── comentarios_modelados.csv      # CSV de saída com os tópicos atribuídos
 ├── requirements.txt                   # Dependências do projeto
 └── .gitignore                         # Arquivos ignorados pelo Git
